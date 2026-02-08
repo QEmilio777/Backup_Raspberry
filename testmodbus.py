@@ -1,8 +1,8 @@
 from pymodbus.client import ModbusTcpClient
 import time
 
-IP = "192.168.47.242"
-PORT = "502"
+IP = "192.168.47.30"
+PORT = 502
 COIL_LED = 0
 
 client = ModbusTcpClient(IP, port=PORT)
